@@ -45,9 +45,9 @@ img {
 } 
 
 .heart {
-    color: red;
-    vertical-align: center;
     font-size: 2em;
+    vertical-align: center;
+    color: red;
 }
 
 /* LAYOUT */
@@ -64,14 +64,14 @@ header {
 header .logo {
     height: 75px;
     width: auto;
-    border-right: 1px solid #e5e5e5;
     padding-right: 1em;
+    border-right: 1px solid #e5e5e5;
 }
 
 /* NAV */
 nav li {
-    list-style: none;
     display: inline-block;
+    list-style: none;
     padding-right: 1em;
 }
 
@@ -86,10 +86,10 @@ nav li a {
 .jumbotron {
     height: 500px;
     border-radius: 1.5em;
-    overflow: hidden;
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
     position: relative;
     color: white;
 }
@@ -128,8 +128,8 @@ nav li a {
 }
 
 .main-center {
-    margin: 0 30px;
     width: calc(60% - 60px);
+    margin: 0 30px;
 }
 
 .column {
@@ -152,6 +152,6 @@ nav li a {
 footer {
     height: 50px;
     line-height: 50px;
-    text-align: center;
     margin-top: 1em;
+    text-align: center;
 }
