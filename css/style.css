@@ -37,6 +37,7 @@ img {
 .heart {
     color: red;
     vertical-align: center;
+    font-size: 2em;
 }
 
 /* LAYOUT */
@@ -106,10 +107,6 @@ nav li a {
 }
 
 /* main */
-.main-container {
-    margin-bottom: 10px;
-}
-
 .main-container img {
     height: 250px;
     object-fit: cover;
@@ -147,5 +144,5 @@ footer {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background-color: #893cfe;
+    margin-top: 1em;
 }
