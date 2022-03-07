@@ -22,8 +22,10 @@ html {
 }
 
 /* font */
-.heart {
+.font-size {
     font-size: 1.5em;
+}
+.heart {
     color: red;
     vertical-align: center;
 }
@@ -62,10 +64,24 @@ nav li a {
 /* jumbotron */
 
 .jumbotron {
-    height: 350px;
+    height: 500px;
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
+    color: white;
+    position: relative;
+}
+
+.jumbotron-text {
+    width: 60%;
+    position: absolute;
+    bottom: 4em;
+    left: 3em;
+}
+
+.jumbotron h2 {
+    font-size: 2em;
+    font-weight: 400;
 }
 
 .main-container {
