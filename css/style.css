@@ -108,7 +108,6 @@ nav li a {
 /* main */
 .main-container {
     margin-bottom: 10px;
-    height: 500px; /*da eliminare*/
 }
 
 .main-container img {
@@ -125,6 +124,12 @@ nav li a {
     font-size: 1.5em;
 }
 
+.main-container h3 {
+    font-weight: normal;
+    margin-bottom: 1em;
+    color: black;
+}
+
 .main-center {
     margin: 0 30px;
     width: calc(60% - 60px);
@@ -132,7 +137,6 @@ nav li a {
 
 .column {
     float: left;
-    height: 390px; /*da eliminare*/
 }
 
 .main-left, .main-right {
