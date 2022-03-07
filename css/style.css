@@ -108,7 +108,7 @@ nav li a {
 
 /* MAIN */
 .main-container img {
-    height: 250px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -141,8 +141,11 @@ nav li a {
 }
 
 /* main layover */
-.main-container {
+.col-img {
+    height: 200px;
+    border-radius: 1.5em;
     position: relative;
+    overflow: hidden;
 }
 
 /* FOOTER */
